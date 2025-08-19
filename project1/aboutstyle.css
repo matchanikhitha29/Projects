@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+.home{
+  background-color:rgba(0, 35, 71, 0.8);
+  width:100%;
+  height:400px;
+}
+
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  padding-top:20px;
+  padding-left:70px;
+  padding-right:140px;
+}
+
+.nav_links .bokmarking{
+  color:white;
+  font-weight:bold;
+  text-decoration:none;
+  margin: 20px;
+}
+
+.nav_links .bokmarking:hover{
+  color:#fdc632;
+}
+
+
+.section{
+  text-align:center;
+  margin-top:100px;
+}
+
+.section h1{
+  color:white;
+  font-family:"rubik",sans-serif;
+  font-size: 40px;
+  font-weight:bold;
+  padding-bottom:10px;
+}
+
+.section p{
+  color:white;
+  font-family: "Roboto", sans-serif;
+  font-size:20px;
+  font-weight:bold;
+} 
+
+.institute_container{
+    display:flex;
+    height:500px;
+    margin:70px;
+}
+
+.photo{
+    width:150%;
+    height: auto;
+    align-items:center;
+    margin-top:80px;
+    margin-left:20px;
+}
+
+.institute_details .intro{
+    margin-left:220px;
+    margin-top:110px;
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+.institute_details .info{
+    margin-top:10px;
+    margin-left:220px;
+    margin-right:90px;
+    margin-bottom:40px;
+    font-size:16px;
+    font-family:"roboto",sans-serif;
+}
+
+.institute_details .learnmorebutton{
+    margin-left:220px;
+    background-color:#fdc632;
+    color: #002347;
+    text-decoration: none;
+    border:none;
+    padding:10px 40px;
+    font-size:15px;
+    font-weight:bold;
+    border-radius:5px;
+}
+
+.features_page{
+    background-color: #002347;
+    color:white;
+    height:600px;
+}
+
+.section_two h1 {
+  padding-top:100px;
+  font-size:35px;
+  font-family:"Rubik", sans-serif;
+  font-weight:bold;
+  text-align:center;
+}
+
+.section_two p{
+  margin-top:5px;
+  font-size:14px;
+  text-align:center;
+  color:#7b838a;
+}
+
+.section_features_one{
+  display:flex;
+  justify-content:space-around;
+  margin-top:90px;
+  margin-left:60px;
+  margin-right:60px;
+  align-items: center;
+}
+
+.section_feature1{
+  background-color:#f9f9ff;
+  margin:20px;
+  padding:30px;
+}
+
+.section_feature1 .image{
+  width:70px;
+  height:70px;
+  align-items:start;
+  margin-bottom:10px;
+  margin-right:0px;
+}
+
+.section_feature1 .h2{
+  padding-bottom:10px;
+  color:#002347;
+}
+
+.section_feature1 .p{
+  padding-bottom:10px;
+  color:#7b838a;
+}
+
+.client{
+  display:flex;
+  justify-content:space-around;
+  height:500px;
+  margin-left:60px;
+  margin-right:60px;
+  align-items: center;
+}
+
+.client_info{
+  display:flex;
+  padding:20px;
+  margin:20px;
+  height:200px;
+  background-color: whitesmoke;
+  padding:20px;
+}
+
+.client_info .client_image{
+  width:120px;
+  height:120px;
+  margin-left:30px;
+  margin-right:20px;
+  margin-top:30px;
+  margin-bottom:30px;
+  border-radius:5px;
+}
+
+.client_details .client_name{
+  color:#002347;
+  margin-top:25px;
+  margin-bottom:20px;
+}
+
+.client_details .client_data{
+  color:#7b838a;
+  padding-right:40px;
+}
+
+.footer{
+  background-color:#002347;
+  height:500px;
+  color:#b0bec5;
+  padding:40px 20px;
+}
+
+.footer_container{
+  display:flex;
+  justify-content: space-between;
+  margin-left:50px;
+  margin-top:60px;
+  max-width: 1000px;
+}
+
+.footer_column{
+  margin:20px 10px;
+  min-width:180px;
+}
+
+.footer_column h3{
+  color:white;
+  margin-bottom:15px;
+}
+
+.footer_column p{
+  cursor:pointer;
+  margin-top:25px;
+  margin-bottom:25px;
+}
+
+.footer_column p:hover{
+  color:white;
+}
+
+.newsletter_column{
+  min-width:320px;
+}
+
+.newsletter_column h3{
+  color:white;
+  margin-bottom:15px;
+  margin-top:20px;
+}
+
+.newsletter_column p{
+  color:#7b838a;
+  margin-bottom:30px;
+}
+
+.subscribe{
+  display:flex;
+  margin-top:10px;
+  background-color: #34495e;
+}
+
+.subscribe input{
+  padding:12px 15px;
+  border:none;
+  outline:none;
+  background-color:transparent;
+}
+
+.subscribe button{
+  background-color: #fbc02d;
+  color:black;
+  font-weight:bold;
+  border-radius:0px;
+  cursor:pointer;
+  padding:5px 20px;
+}
+
+.footer_bottom{
+  text-align:center;
+  margin-top:40px;
+}
+
+.footer_bottom .heart{
+  color:white;
+}
+
+.footer_bottom .highlight{
+  color:#fbc02d;
+}
+
+
+
+
+
