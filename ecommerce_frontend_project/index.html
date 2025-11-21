@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mini E‑commerce Store</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- React + ReactDOM + Babel -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="application/json" id="products-data">
+  [
+    {"id":"p1","title":"Classic Leather Jacket","price":119.99,"category":"Clothing","image":"https://picsum.photos/seed/p1/400/300","rating":4.5,"desc":"Stylish genuine leather jacket."},
+    {"id":"p2","title":"Noise-Cancelling Headphones","price":89.50,"category":"Electronics","image":"https://picsum.photos/seed/p2/400/300","rating":4.7,"desc":"Immersive sound with long battery life."},
+    {"id":"p3","title":"Running Sneakers","price":59.99,"category":"Footwear","image":"https://picsum.photos/seed/p3/400/300","rating":4.2,"desc":"Lightweight and comfortable for daily runs."},
+    {"id":"p4","title":"Smartwatch Pro","price":149.99,"category":"Electronics","image":"https://picsum.photos/seed/p4/400/300","rating":4.3,"desc":"Health tracking and notifications on your wrist."},
+    {"id":"p5","title":"Elegant Wristwatch","price":79.99,"category":"Accessories","image":"https://picsum.photos/seed/p5/400/300","rating":4.1,"desc":"Minimal design with leather strap."},
+    {"id":"p6","title":"Cotton T-Shirt (3-pack)","price":29.99,"category":"Clothing","image":"https://picsum.photos/seed/p6/400/300","rating":4.0,"desc":"Soft breathable cotton t-shirts."}
+  ]
+  </script>
+  <script type="text/babel" src="app.js"></script>
+</body>
+</html>
